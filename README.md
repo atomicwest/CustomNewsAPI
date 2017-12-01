@@ -1,6 +1,9 @@
-# Custom News API Library
+# Custom News API
 
 Utilizes BeautifulSoup to scrape common search engine news
+
+Currently scraping:
+* Google News
 
 Requirements:
 * Python 3.x

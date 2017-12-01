@@ -53,6 +53,11 @@ def readfromf(filename):
     for l in f:
         print(l)
 
+def printlines(d, key):
+    for l in d[key]:
+        print(l)
+
+
 #main api function
 def scraper(url):
     
@@ -104,7 +109,8 @@ def scraper(url):
     return out
 
         
-# url = formatUrl("Roswell, NM")
-# sc = scraper(url)
+url = formatUrl("Roswell, NM")
+sc = scraper(url)
+printlines(sc, "hlines")
 # print(sc["hlines"][0])
 # readfromf(fname)
